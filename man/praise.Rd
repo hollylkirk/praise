@@ -4,14 +4,21 @@
 \alias{praise}
 \title{Praise Someone}
 \usage{
-praise(name = "Holly")
+praise(name = "Holly", adjective = "best", punctuation = "!")
 }
 \arguments{
 \item{name}{Specifies recipient of praise}
+
+\item{adjective}{type of praise phrase you want to send}
+
+\item{punctuation}{sets the tone of the praise}
 }
 \description{
 Let's dole out praise
 }
 \examples{
-praise("Carrot")
+praise(name = "Banana",
+adjective = "best"
+punctuation = "!?")
+
 }

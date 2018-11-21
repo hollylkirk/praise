@@ -21,8 +21,8 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(praiseme)
-praise('Benji')
-#> [1] "you are the best,  Benji !"
+praise("Benji")
+#> You're the best, Benji!
 ```
 
 In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
